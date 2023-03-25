@@ -1,8 +1,9 @@
 # Tech Organize
 
 Logo Empresa
-
-![logo Tech online](https://user-images.githubusercontent.com/117765070/227722333-255c30f4-9958-461e-948f-cdb5db4f62d4.png width="300")
+<p align:center;>
+<img src="https://github.com/ProyectoTechOrganize/TechOrganizeContenido/blob/main/Logo/logo%20Tech%20online.png" width="300";>
+</p>
 
 Eslogan:
 
