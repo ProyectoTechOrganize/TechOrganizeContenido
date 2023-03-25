@@ -18,7 +18,7 @@ _El propósito es lograr concientizar a los usuarios y que comprendan la importa
 
 ## **_Planteamiento:_**
 
-_Al observar la gran necesidad de mantener un orden en las cosas, se busca crear un software que facilite el orden de los archivos y se aprenda a tener un orden. _
+_Al observar la gran necesidad de mantener un orden en las cosas, se busca crear un software que facilite el orden de los archivos y se aprenda a tener un orden._
 
 ## **_Objetivo General:_**
 
@@ -30,4 +30,4 @@ _Optimizar la organización , clasificación y limpieza de los archivos
 Usar lenguajes modernos para el aplicativo
 Añadir una interfaz práctica y entendible para el usuario
 Diseñar una página web y un aplicativo funcional e intuitivo para los usuarios
-Garantizar la seguridad y la privacidad para los archivos guardados, con el fin de que ninguno se extravíe o sea vulnerado _
+Garantizar la seguridad y la privacidad para los archivos guardados, con el fin de que ninguno se extravíe o sea vulnerado_
