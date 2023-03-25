@@ -24,7 +24,7 @@ _Al observar la gran necesidad de mantener un orden en las cosas, se busca crear
 
 _Desarrollar un software el cual permite organizar, limpiar y clasificar los archivos del usuario, teniendo como resultado optimizar la labor de los consumidores y así lograr que sea más práctica y sencilla._ 
 
-## **_Objetivos Especificos:_**
+## :bangbang: **_Objetivos Especificos:_** :bangbang:
 
 _Optimizar la organización_
 
