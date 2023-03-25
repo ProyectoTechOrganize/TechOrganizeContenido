@@ -26,8 +26,14 @@ _Desarrollar un software el cual permite organizar, limpiar y clasificar los arc
 
 ## **_Objetivos Especificos:_**
 
-_Optimizar la organización , clasificación y limpieza de los archivos 
-Usar lenguajes modernos para el aplicativo
-Añadir una interfaz práctica y entendible para el usuario
-Diseñar una página web y un aplicativo funcional e intuitivo para los usuarios
-Garantizar la seguridad y la privacidad para los archivos guardados, con el fin de que ninguno se extravíe o sea vulnerado_
+_Optimizar la organización_
+
+_clasificación y limpieza de los archivos_
+
+_Usar lenguajes modernos para el aplicativo_
+
+_Añadir una interfaz práctica y entendible para el usuario_
+
+_Diseñar una página web y un aplicativo funcional e intuitivo para los usuarios_
+
+_Garantizar la seguridad y la privacidad para los archivos guardados, con el fin de que ninguno se extravíe o sea vulnerado_
