@@ -12,7 +12,7 @@
 
 _Tech Online busca generar un orden en los documentos importantes para el usuario, aplicando un sistema de almacenamiento ordenado, con una facil busqueda de archivos y un guardado practico, ordenado y facil de usar._
 
-:white_check_mark: ## **_Justificacion:_**
+ ## :white_check_mark: **_Justificacion:_**
 
 _El propósito es lograr concientizar a los usuarios y que comprendan la importancia de mantener bien organizadas sus carpetas, para obtener como resultado un fácil acceso a ellos y que los puedan tenerlos a la mano cuando lo necesiten  y de esta forma también lograr tomar un orden en la vida cotidiana._
 
