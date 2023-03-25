@@ -1,6 +1,6 @@
 # Tech Organize
 
-## Logo Empresa
+## ** * Logo Empresa * **
 <p align="center";>
 <img src="https://github.com/ProyectoTechOrganize/TechOrganizeContenido/blob/main/Logo/logo%20Tech%20online.png" width="300";>
 </p>
