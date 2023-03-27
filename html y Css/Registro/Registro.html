@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tech Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="Relleno.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="container-fluid bg-primary d-flex">
+      <img src="logo Tech online.png" width="70px" alt="">
+      <p class="text-light mb-0 p-2 fs-1">Tech Organize</p>
+    </header>
+      <div class="text-center">
+        <div
+        class="bg-image"
+        style="background-color: rgba(25, 128, 114, 0.699);">
+        <h3 class="mb-3 h2 text-dark">Registro de usuario</h3>
+        <p>Tech Online</p>
+        <form id="FormIniciar">
+          <div class="mb-3">
+            <label for="usuario" class="form-label text-dark">Ingrese su nombre de usuario</label>
+            <input type="text" class="form-control" id="usser" placeholder="" required>
+          </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label text-dark">Ingrese su correo</label>
+            <input type="email" class="form-control" id="email" placeholder="nombre@correo.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label text-dark">Contraseña</label>
+            <input type="password" class="form-control" id="password" placeholder="" required>
+            <span id="passwordhelp" class="form-text text-dark">
+              Debe contener de 8 a 15 caracteres
+            </span>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label text-dark">Repita su contraseña</label>
+            <input type="password" class="form-control" id="password2" placeholder="" required>
+          </div>
+          <div class="mb-3">
+            <label for="formFile" class="form-label text-dark">Imagen de perfil</label>
+            <input class="form-control" type="file" id="formFile">
+            <span id="imghelp" class="form-text">
+              La imagen de perfil no es obligatoria
+            </span>
+          </div>
+          <div>
+              <input class="form-check-input mt-0 text-dark" type="radio" value="" required>
+              Acepto los <a href="#"> terminos y condiciones</a>
+          </div>
+          <div class="mb-3">
+            <input type="button" class="btn btn-secondary" value="Registrar usuario">
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p> Derechos Reservados <?php echo date('Y')?> </p>
+  </footer>
+</html>
