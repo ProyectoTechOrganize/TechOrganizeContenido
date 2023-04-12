@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(ventajas-desventajas-uso-nube.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  input{
+    outline: none;
+    box-sizing: border-box;
+    height: 22px;
+    width: 0;
+    padding: 0 20px;
+    color: #000;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 2px solid black;
+    transition: all .7s ease;
+    text-align: center;
+  }
+  ::placeholder{
+    color: grey;
+  }
+  .btn{
+    position: absolute;
+    top: 16px;
+    width: 50px;
+    height: 25px;
+    background: #f00;
+    line-height: 20px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .btn i{
+    font-size: 20px;
+    color: white;
+    line-height: 25px;
+    transition: all .7s ease;
+  }
+  .container:hover input{
+    width: 350px;
+  }
+  .container:hover i{
+    transform: rotate(-360deg);
+  }
+  .MENU{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    border: 1px solid black;
+  }
+  .sidebar{
+    width: 320px;
+    height: 100%;
+    background: white;
+    overflow: auto;
+    float: left;
+  }
+  .sidebar img {
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+    opacity: .7;
+  }
+  .side-hide{
+    float: right;
+    margin: 10px;
+    color: black;
+    opacity: .7;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .sidebar ul li{
+    list-style: none;
+    padding: 12px 10px;
+  }
+  .sidebar ul li:hover{
+    background: #4e4e4e;
+    cursor: pointer;
+  }
+  .sidebar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: sans-serif;
+    opacity: .7;
+  }
+  .content{
+    padding: 20px;
+    font-size: 16px;
+    color: black;
+    font-family: sans-serif;
+  }
+  button{
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    position: fixed;
+    cursor: pointer;
+    display: block;
+    float: top;
+  }
+  footer{
+    background-color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #333;
+    z-index: 999;
+  }
+  
+  nav ul li:hover ul {
+    display: block;
+  }
+  
+  nav ul li ul li {
+    display: block;
+  }
+  
+  .color-box {
+    width: 150px;
+    height: 150px;
+    transition: background-color 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .color-box span:first-child {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .color-box span:last-child {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .color-box.red {
+    background-color: blue;
+  }
+  
+  .color-box.blue {
+    background-color: blue;
+  }
+  
+  .color-box.green {
+    background-color: blue;
+  }
+  
+  .offer-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .offer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .arrow {
+    font-size: 40px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .left-arrow {
+    transform: rotate(180deg);
+  }
+  
+  .offer-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .offer-content a {
+    margin-right: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav ul li:hover ul {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .offer-container {
+      max-width: 100%;
+    }
+    .offer-content{
+      flex-direction: column;
+    }
+    .input{
+      position: static;
+    }
+    .btn{
+      position: static;
+    }
+  }
+  @media screen and (max-width: 1240px) {
+    .MENU{
+      left: -320px;
+    }
+  }
+  .color-box span:last-child {
+    font-size: 36px;
+    font-weight: bold;
+    animation: slide 3s infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-50%);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    75% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .color-box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .color-box span:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+  }
+  
+  .color-box span:last-child {
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    animation: slide 3s infinite;
+  }
+  
+  .color-box:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #f00, #0f0, #00f);
+    opacity: 0.6;
+    transition: all 0.5s ease;
+  }
+  
+  .color-box:hover:before {
+    opacity: 1;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-50%);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    75% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+      

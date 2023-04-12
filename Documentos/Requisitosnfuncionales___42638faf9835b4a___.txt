@@ -1,0 +1,37 @@
+Requisitos funcionales:
+
+-Inicio de sesion
+-Registro de perfil
+-Descargar de archivos
+-Subida de archivos
+-Cerrar sesion
+-Organizar archivos
+-Baul de virus y fallos
+-Papelera de reciclaje
+-Analizis de archivos
+-Atencion al cliente
+-Registro de base de datos
+-Metodo de pago
+-Aceptar el pago
+-Captcha
+-Menu
+-Busqueda
+-Base de datos de usuarios
+
+
+/////////////////////////////////
+
+Requisitos no funcionales:
+
+-Interfaz interactiva y amigable
+-Editar archivos
+-Edicion de la interfaz
+-Seguridad de los archivos y del usuario
+-Imagen de perfil
+-Compartir archivo
+-Eliminacion de archivos
+-Tipo de almacenamiento 
+-Edicion de perfil
+-Plataformas de pago
+-Expansion de almacenamiento
+-Cancelar el pago
