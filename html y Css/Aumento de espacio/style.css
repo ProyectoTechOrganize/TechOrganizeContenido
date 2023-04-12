@@ -67,7 +67,7 @@
   .sidebar{
     width: 320px;
     height: 100%;
-    background: white;
+    background: #333;
     overflow: auto;
     float: left;
   }
@@ -95,7 +95,7 @@
   }
   .sidebar ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 17px;
     font-family: sans-serif;
     opacity: .7;
@@ -103,11 +103,11 @@
   .content{
     padding: 20px;
     font-size: 16px;
-    color: black;
+    color: white;
     font-family: sans-serif;
   }
   button{
-    background: #333;
+    background: black;
     color: white;
     padding: 10px 20px;
     border: 1px solid black;
