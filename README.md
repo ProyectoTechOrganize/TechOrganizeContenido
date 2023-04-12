@@ -2,7 +2,7 @@
 
 ## **_Logo Empresa_**
 <p align="center";>
-<img src="https://github.com/ProyectoTechOrganize/TechOrganizeContenido/blob/main/Logo/logo%20Tech%20online.png" width="300";>
+<img src="https://github.com/ProyectoTechOrganize/TechOrganizeContenido/html y Css/Logo/log-Tech-online.png" width="300";>
 </p>
 
 ## **_Eslogan:_**
