@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi sitio web</title>
-    <link rel="stylesheet" type="text/css"href="style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -23,14 +23,13 @@
           </div>
         </ul>
       </nav>
-      
-    </header>
+      </header>
     <section class="MENU">
       <div class="sidebar">
         <div class="side-hide">
           <i class="fa fa-times" aria-hidden="true"></i>
         </div>
-        <img src="log-Tech-online.png" width="50" alt="Logo">
+        <img src="img/log-Tech-online.png" width="50" alt="Logo">
         <ul>
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Promociones</a></li>
@@ -42,12 +41,25 @@
         </ul>
       </div>
     </section>
+    <!-- JS Script -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<script>
+
+  // Muestra SideBar
+  $('button').on('click', function() {
+    $(".MENU").toggleClass('show');
+  })
+
+  // Oculta SideBar
+  $('.side-hide').on('click', function() {
+    $(".MENU").toggleClass('show');
+  });
+
+</script>
+
     <main>
       <div class="offer-container">
-        <div class="offer-nav">
-          <div class="arrow right-arrow">&lt;</div>
-          <div class="arrow right-arrow">&gt;</div>
-        </div>
         <div class="offer-content">
           <a href="#">
             <div class="color-box red">

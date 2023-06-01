@@ -6,7 +6,7 @@
   body{
     margin: 0;
     font-family: sans-serif;
-    background-image: url(ventajas-desventajas-uso-nube.jpg);
+    background-image: url(../img/ventajas-desventajas-uso-nube.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -59,10 +59,9 @@
   }
   .MENU{
     position: fixed;
-    width: 100%;
     height: 100%;
     overflow: auto;
-    border: 1px solid black;
+    left: -320px;
   }
   .sidebar{
     width: 320px;
@@ -115,6 +114,9 @@
     cursor: pointer;
     display: block;
     float: top;
+  }
+  .show{
+    left: 0;
   }
   footer{
     background-color: white;
@@ -220,15 +222,11 @@
     cursor: pointer;
   }
   
-  .left-arrow {
-    transform: rotate(180deg);
-  }
-  
   .offer-content {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 700px;
     overflow: hidden;
   }
   
