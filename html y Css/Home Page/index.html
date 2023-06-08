@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio web</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+      <nav>
+        <ul>
+          <div class="content">
+            <button>Mostrar El Menu</button>
+          </div>  
+          <div class="container">
+            <input type="text" placeholder="Buscar">
+            <div class="btn">
+              <i class="fa fa-search"></i>
+            </div>
+          </div>
+        </ul>
+      </nav>
+      </header>
+    <section class="MENU">
+      <div class="sidebar">
+        <div class="side-hide">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <img src="img/log-Tech-online.png" width="50" alt="Logo">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="./index.html">Aumento Espacio</a></li>
+          <li><a href="#">Subir Archivo</a></li>
+          <li><a href="#">Descargar Archivo</a></li>
+          <li><a href="#">Compartir Archivo</a></li>
+          <li><a href="#">Perfil</a></li>
+          <li><a href="#">Cerrar Sesion</a></li>
+        </ul>
+      </div>
+    </section>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+  $('button').on('click', function() {
+    $(".MENU").toggleClass('show');
+  })
+  $('.side-hide').on('click', function() {
+    $(".MENU").toggleClass('show');
+  });
+</script>
+
+  <div class="cont">
+    <span style="--l: '¡B';">¡B</span>
+    <span style="--l: 'i';">i</span>
+    <span style="--l: 'e';">e</span>
+    <span style="--l: 'n';">n</span>
+    <span style="--l: 'v';">v</span>
+    <span style="--l: 'e';">e</span>
+    <span style="--l: 'n';">n</span>
+    <span style="--l: 'i';">i</span>
+    <span style="--l: 'd';">d</span>
+    <span style="--l: 'o!';">o!</span>
+  </div>
+<main>
+  <article class="dropZone">
+    <p class="p_interno">Arrastra y suelta tus archivos aquí</p>
+  </article>
+</main>
+<script src="./js/script.js"></script>
+</body>  
+    <footer>
+        <h3>Derechos Reservados <?php echo date('Y')?></h3>
+    </footer>
+</html>

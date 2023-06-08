@@ -8,7 +8,6 @@ Requisitos funcionales:
 -Organizar archivos
 -Baul de virus y fallos
 -Papelera de reciclaje
--Analizis de archivos
 -Atencion al cliente
 -Registro de base de datos
 -Metodo de pago
