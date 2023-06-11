@@ -114,7 +114,7 @@
     color: white;
     font-family: sans-serif;
   }
-  button{
+  #MEM{
     background: black;
     color: white;
     height: 30px;
@@ -174,101 +174,7 @@
   nav ul li ul li {
     display: block;
   }
-  .cont{
-    text-align: center;
-    font-size: 80px;
-
-  }
-  .container span {
-    font-weight: bold;
-    position: relative;
-    font-family: "Fredoka One";
-    cursor: pointer;
-    transition: all 300ms ease-in-out;
-  }
-  .cont span::before {
-    content: var(--l);
-    position: absolute;
-    transform: scale(1.1);
-    filter: blur(15px);
-  }
-  .cont span::after {
-    content: var(--l);
-    position: absolute;
-    filter: blur(20px);
-    transform: rotateX(50deg);
-  }
-  .cont span:hover {
-    filter: contrast(250%);
-  }
-  .cont span:nth-child(1) {
-    color: #bb00ff;
-  }
-  .cont span:nth-child(2) {
-    color: #bb00ff;
-  }
-  .cont span:nth-child(3) {
-    color: #bb00ff;
-  }
-  .cont span:nth-child(4) {
-    color: #bb00ff;
-  }
-  .cont span:nth-child(5) {
-    color: #bb00ff;
-  }
-  .cont span:nth-child(6) {
-    color: #bb00ff;
-  }
-  .cont span:nth-child(7) {
-    color: #bb00ff;
-  }
-  .cont span:nth-child(8) {
-    color: #bb00ff;
-  }
-  .cont span:nth-child(9) {
-    color: #bb00ff;
-  }
-  .cont span:nth-child(10) {
-    color: #bb00ff;
-  }
-  .dropZone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 30vh;
-    border: 2px solid #02ff0280;
-    }
-    
-    .p_interno{
-    font-size: 18px;
-    animation: sombraTexto 1s infinite;
-    }
-    
-    .dropZone.is-active {
-    border: 2px dashed #fff;
-    background-color: #02ff0280;
-    animation: contenidoInterno 1.5s infinite;
-    animation-timing-function: linear;
-    }
-    
-    @keyframes sombraTexto {
-    0%
-    {
-      font-size: 20px;
-      text-shadow: 1px 5px 15px #02ff0280;
-    }
-    50% {
-      font-size: 21px;
-      text-shadow: 1px 5px 15px #02ff0280, 1px 5px 15px #02ff0280;
-    }
-    
-    100% {
-      font-size: 20px;
-      text-shadow: 1px 5px 15px #02ff0280, 1px 5px 15px #02ff0280, 1px 5px 15px #02ff0280;
-    }
-    }
-    
+  
     @keyframes contenidoInterno {
     0% {
       transform: scale(1);
@@ -395,4 +301,60 @@
       transform: translateX(0);
     }
   }
-      
+     
+.drag-area{
+  border: 5px dashed #ddd;
+  height: 300px;
+  width: 700px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.drag-area.active{
+  background-color: #b8d4fe;
+  color: black;
+  border: 2px dashed #618ac9;
+}
+.drag-area h2{
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+}
+.drag-area span{
+  font-size: 15px;
+  color: #000;
+  font-weight: 500;
+}
+.drag-area button{
+  padding: 10px 25px;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  background-color: #5256ad;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+.file-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: solid 1px #ddd;
+}
+#preview{
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+.status-text{
+  padding: 0 10px;
+}
+.success{
+  color: #52ad5a;
+}
+.failure{
+  color: #ff0000;
+}

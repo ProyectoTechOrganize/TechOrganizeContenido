@@ -18,7 +18,7 @@ const uploader = (file) => {
       console.log(`Error ${xhr.status}: ${message}`);
     }
   })
-  xhr.open("POST", "assets/uploader.php");
+  xhr.open("POST", "./assets/uploader.php");
   xhr.setRequestHeader("enc-type", "multipart/form-data");
   xhr.send(formData);
 }
