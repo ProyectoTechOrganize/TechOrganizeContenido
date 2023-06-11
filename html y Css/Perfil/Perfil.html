@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi sitio web</title>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <title>Perfil</title>
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -23,7 +23,7 @@
           </div>
         </ul>
       </nav>
-      </header>
+    </header>
     <section class="MENU">
       <div class="sidebar">
         <div class="side-hide">
@@ -32,57 +32,44 @@
         <img src="img/log-Tech-online.png" width="50" alt="Logo">
         <ul>
           <li><a href="../Home Page/HP.html">Inicio</a></li>
-          <li><a href="./AE.html">Aumento Espacio</a></li>
+          <li><a href="../Aumento de espacio/AE.html">Aumento Espacio</a></li>
           <li><a href="../Subida Archivos/SA.html">Subir Archivo</a></li>
           <li><a href="../Descargar Archivos/Descargas.html">Descargar Archivo</a></li>
-          <li><a href="../Perfil/Perfil.html">Perfil</a></li>
+          <li><a href="./Perfil.html">Perfil</a></li>
           <li><a href="#">Cerrar Sesion</a></li>
         </ul>
       </div>
     </section>
     <!-- JS Script -->
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
-<script>
-
-  // Muestra SideBar
-  $('button').on('click', function() {
-    $(".MENU").toggleClass('show');
-  })
-
-  // Oculta SideBar
-  $('.side-hide').on('click', function() {
-    $(".MENU").toggleClass('show');
-  });
-
-</script>
-
+    <script>
+    
+      // Muestra SideBar
+      $('button').on('click', function() {
+        $(".MENU").toggleClass('show');
+      })
+    
+      // Oculta SideBar
+      $('.side-hide').on('click', function() {
+        $(".MENU").toggleClass('show');
+      });
+    
+    </script>
     <main>
-      <div class="offer-container">
-        <div class="offer-content">
-          <a href="#">
-            <div class="color-box red">
-              <span>100GB</span>
-              <span>COP 6,900/Mes</span>
-            </div>
-          </a>
-          <a href="#">
-            <div class="color-box blue">
-              <span>200GB</span>
-              <span>Cop 10,900/Mes</span>
-            </div>
-          </a>
-          <a href="#">
-            <div class="color-box green">
-              <span>500GB</span>
-              <span>COP 17,900/Mes</span>
-            </div>
-          </a>
+        <h1>Perfil de Usuario</h1>
+        <div class="profile">
+            <img src="img/profile-pic.jpg" alt="Profile Picture">
+            <h2>Nombre de Usuario</h2>
+            <p>Correo Electrónico: usuario@example.com</p>
+            <p>Teléfono: +1234567890</p>
+            <p>Ubicación: Ciudad, País</p>
         </div>
-      </div>
     </main>
-</body>  
+
     <footer>
         <h3>Derechos Reservados <?php echo date('Y')?></h3>
     </footer>
+</body>  
 </html>
+
