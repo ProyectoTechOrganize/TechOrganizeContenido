@@ -12,30 +12,28 @@
       <img src="log-Tech-online.png" width="70px" alt="">
       <p class="text-light mb-0 p-2 fs-1">Tech Organize</p>
     </header>
-      <div class="text-center">
-        <div
-        class="bg-image"
-        style="background-color: rgba(25, 128, 114, 0.699);">
+    <div class="text-center">
+      <div class="bg-image" style="background-color: rgba(25, 128, 114, 0.699);">
         <h3 class="mb-3 h2 text-dark">Ingreso Usuarios</h3>
         <p>Tech Online</p>
         <form id="FormIniciar">
           <div class="mb-3">
             <label for="usuario" class="form-label text-dark">Ingrese Usuario o Correo</label>
-            <input type="text" class="form-control" id="usser" placeholder="" required>
+            <input type="text" class="form-control" id="usser" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="" required>
           </div>
           <div class="mb-3">
-          <label for="password" class="form-label text-dark">Contraseña</label>
-            <input type="password" class="form-control" id="password" placeholder="" required>
+            <label for="password" class="form-label text-dark">Contraseña</label>
+            <input type="password" class="form-control" id="password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" placeholder="" required>
+            <p class="text-muted">La contraseña debe contener al menos 8 caracteres, una letra y un número.</p>
           </div>
           <div>
-              <input class="form-check-input mt-0 text-dark" type="radio" value="" required>
-              Acepto los <a href="#"> terminos y condiciones</a>
+            <input class="form-check-input mt-0 text-dark" type="radio" value="" required>
+            Acepto los <a href="#">terminos y condiciones</a>
           </div>
           <div class="mb-3">
-            <input type="button" class="btn btn-secondary" value="Ingresar">
+            <input type="submit" class="btn btn-secondary" value="Ingresar">
           </div>
         </form>
-        </div>
       </div>
     </div>
   </body>
